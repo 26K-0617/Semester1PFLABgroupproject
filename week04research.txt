@@ -1,0 +1,20 @@
+Alishba Ali 26K-0621 
+Research on Security Departments categorized by case severity.
+
+threat intelligence
+HR/insider risk
+Data protection and compliance
+
+
+There are 2 cases per severity, low, medium, and high.
+
+Clients' reported security cases go through an intricate process from initiation to resolution, and the type of threat calls for 
+its designated security department.threat intelligence department handles attribution, campaign correlation, checking whether a
+case is part of a broader attack pattern. Secondary on medium/high, primary for recon-only cases.
+
+HR/ insider risk departments handle the cases which are reported due to internal issues of their company or extended employee sectors. 
+Cases where an employee or contractor is the vector: credential misuse, policy violations, data exfiltration by insiders, phishing 
+compromise followed by account misuse. Needs pairing with IR so evidence handling isn't contaminated.
+
+Data protection and compliance department is addressed when the security cases are related to data breach, credentials leak,
+or invalid attempts to login. This department usually triggers the legal clock on breach cases.
