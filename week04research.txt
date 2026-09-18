@@ -18,3 +18,37 @@ compromise followed by account misuse. Needs pairing with IR so evidence handlin
 
 Data protection and compliance department is addressed when the security cases are related to data breach, credentials leak,
 or invalid attempts to login. This department usually triggers the legal clock on breach cases.
+
+
+
+Azal Rahman 26K-0617
+Research on types of cyber cases on basis of degree of severity
+
+High: 
+Impact: Massive Corporate insecurity, severe financial loss, exposure of sensitive data causing operational destruction.
+Response: Immediate (within 10 minutes)
+Examples:
+•	Ransomware, Worms and Malware Attacks on critical infrastructure (e.g.: hospitals)
+•	Mass data breaches (containing financial records, SSNs, card payment data etc.)
+•	Supply chain attacks (affecting software vendors and downstream to enterprise customers)
+•	DDOS (Distributed denial of service attack) on ore infrastructure
+•	Social engineering in reduced time frame
+Medium: 
+Impact: Destructs branched (smaller scale) business tasks, targeted phishing, unauthorized access etc. (but not causing catastrophic damage
+Response:  Quick (under an hour or two)
+Examples: 
+•	Spear fishing (to specific employees deceiving them to give away sensitive information)
+•	Stalker ware and targeted spyware
+•	Pharming
+•	Viruses
+Low: 
+Impact: low; generic spam and minor security policy issues
+Response: Standard (under 12 hours)
+Examples: 
+•	Generic Spam and non-targeted phishing
+•	Minor internal security policy violations (e.g: employee using unauthorized USB drive to steal work files)
+•	Brute-Force authentication attacks (low-level)
+•	Adware
+
+
+
