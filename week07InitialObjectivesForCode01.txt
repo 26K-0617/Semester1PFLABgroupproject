@@ -1,0 +1,36 @@
+security threats: Data Breach, Fraud, credentials leak, malware, and ransom threat
+Ask the user for description per case
+THEN DECIDE IF THE DEPTH OF SEVERITY ACCORDING TO THE SCALE OF IMPACT
+for example: is the data breach related to a single user, a handful of them, or a company's.
+
+Azal's part of work 26K-0617
+approach so far:
+are they our employee or client?
+ask for user information: They can give email or credit card number for unique identification (16 digit card number)
+is the case related to our own tragedy or an external case? (client could report our own "Company's" tragedy too.
+if client:
+ask them to name the threat (for now you have to name it from the threats named above)
+WHEN WILL EACH CASE BE LOW SEVERITY:
+
+Data breach: Unidentified login of social media account.
+
+Fraud: Friendly fraud (when a consumer claims they didn't receive their online purchase or they didn't authorize the transaction)
+
+credentials leak: Forgot OR! Lost login credentials (2 different scene), incase of lost credentials, we have to change the passwords for the user
+            but if they forgot it, we can opt for sending verification email.
+
+malware: adware (links that redirect user to unauthorized links)
+
+Alishba's Part of work   26K-0621
+
+
+We have HR department for cases that handle cases based on internal issues
+Security Department for threat intelligence for the CLIENT 
+IF THERE IS A MAJOR THREAT INSIDE THE COMPANY , REPORT HR TO SEND THE CASE TO SECURITY DEPT ON PRIORITY BASIS
+
+integrate remaining cases of threats
+consider the low severity stance as well
+prepare potential solutions
+Integrate medium severity in first three threats
+compile this case and make it work as a proper dashboard.
+integrate stances where it proves to be more efficient than manual responders
