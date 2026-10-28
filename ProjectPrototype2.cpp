@@ -1,11 +1,25 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
+//declaring and defining credit card func
+int ifValidCreditCard(char cardNum[]) {
+    // Check if input length is 16
+    if (strlen(cardNum) != 16) {
+        return 0; 
+    }
+ // Check if every character is a digit
+    for (int i = 0; i < 16; i++) {
+        if (cardNum[i] < '0' || cardNum[i] > '9') {
+            return 0; 
+        }
+    }
+    return 1; // Valid 16-digit string
+}
 void clear_input_buffer(void) {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
+
 
 int main(void) {
     int n = 0; // Number of cases for this session
@@ -45,10 +59,19 @@ int main(void) {
         printf("\nError! Invalid choice. Please pick  1 or 2.\n");
         }
      } while (user_type < 1 || user_type > 2);
+//loop till gets valid id
+        do {
+            printf("Enter User Identification (16-digit Credit Card Number): ");
+            fgets(user_id, sizeof(user_id), stdin);
+            user_id[strcspn(user_id, "\n")] = 0; // Strip trailing newline
+            
+//calling credit card validation function inside if condition
+            if (ifValidCreditCard(user_id) == 0) {//0 means false
+                printf("Error! Invalid card format. Try again.\n");
+            }
+        } while (ifValidCreditCard(user_id) == 0);
 
-        printf("Enter User Identification (Email or 16-digit Credit Card Number): ");
-        fgets(user_id, sizeof(user_id), stdin);
-        user_id[strcspn(user_id, "\n")] = 0; // Strip trailing newline
+        printf("Card number verified successfully!\n");
 
         // --- STEP 2: Scope/Origin ---
      do{    
